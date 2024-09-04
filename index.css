@@ -1,0 +1,520 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  width: 100%;
+  background-color: black;
+  font-family: "Quicksand", sans-serif;
+}
+
+.sectionOne {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right, #000000b7, #641864, #280224);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  width: 80%;
+  height: 100px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 90px;
+  display: flex;
+  width: 120px;
+  /* background-color: black; */
+  border-radius: 6px;
+  object-fit: contain;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+.navbut {
+  width: 500px;
+  height: 60px;
+  display: flex;
+  font-size: 16px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation {
+  width: 300px;
+  gap: 40px;
+  display: flex;
+  color: white;
+  align-items: center;
+  /* background-color: grey; */
+  font-weight: bold;
+}
+
+.btn {
+  padding: 2px;
+  background: linear-gradient(to right, #41008f, #e13be4);
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  width: 120px;
+  border: none;
+  height: 40px;
+  font-weight: bold;
+}
+
+.information {
+  width: 80%;
+  height: 450px;
+  display: flex;
+}
+
+.textArea {
+  width: 50%;
+  height: 100%;
+  /* background-color: black; */
+  color: whitesmoke;
+  align-items: center;
+  display: flex;
+}
+
+.heroText h1 {
+  font-weight: bolder;
+  font-size: 50px;
+  background: linear-gradient(to right, #af29b2, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn1 {
+  width: 100%;
+  height: 50px;
+  /* background-color: beige; */
+  display: flex;
+  align-items: center;
+}
+
+.btn1 button {
+  width: 30%;
+  height: 35px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid #770759;
+  color: #b80b8a;
+  font-weight: bolder;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.social {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.social img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.iconify {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.imageHolder {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #c4c4c4; */
+}
+
+.image {
+  background-image: url(./image/wp2933160.jpg);
+  /* object-fit: contain; */
+  width: 290px;
+  height: 370px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: rgba(224, 224, 235, 0.45) 0px 50px 100px -20px,
+    rgba(207, 192, 192, 0.3) 0px 30px 60px -30px;
+  transform: rotate(9deg);
+  border-radius: 30px;
+  background-color: black;
+}
+
+.like {
+  width: 80%;
+  height: 80px;
+  /* background-color: red; */
+  justify-content: center;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+
+span {
+  font-size: 60px;
+  font-weight: bolder;
+  display: flex;
+}
+
+.totallikes {
+  height: 80px;
+  width: 20%;
+  /* background-color: blue; */
+  /* float: right; */
+  display: flex;
+  gap: 10px;
+}
+
+.sectiontwo {
+  height: 100vh;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.My {
+  height: 25%;
+  width: 80%;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+.My h1 {
+  font-size: 40px;
+  font-weight: bolder;
+  background: linear-gradient(to right, #af29b2, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.My h4 {
+  font-size: 14px;
+}
+
+.design {
+  height: 70%;
+  width: 80%;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* background-color: #ffa200; */
+}
+
+.design :hover {
+  background-color: #560a51;
+}
+
+.uxdesign {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  border: 2px solid #60024c;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.boxone {
+  width: 20%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  cursor: pointer;
+}
+
+.boxone h2 {
+  font-weight: bolder;
+}
+
+.boxtwo {
+  width: 40%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.arrow {
+  width: 10%;
+  height: 80px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.arrowicon {
+  height: 40px;
+  width: 40px;
+  background-image: url(./image/arrow-up-right-svgrepo-com\ \(2\).svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-size: cover;
+}
+
+.sectionthree {
+  height: 800px;
+  width: 100%;
+  background: linear-gradient(to right, #0f010eb5, #650165, #140112);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Myservice {
+  height: 150px;
+  width: 80%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: transparent;
+}
+
+.nav2 {
+  width: 30%;
+  height: 40px;
+  background-color: black;
+  display: flex;
+  gap: 20px;
+  color: white;
+  align-items: center;
+  border-radius: 50px;
+}
+.nav2 :hover {
+  background: linear-gradient(to right, #41008f, #e13be4);
+}
+
+nav {
+  border-radius: 50px;
+  height: 100%;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: 550;
+}
+
+.Myservice h1 {
+  font-size: 40px;
+  font-weight: bolder;
+  background: linear-gradient(to right, #af29b2, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cards {
+  width: 80%;
+  height: 78%;
+  /* background-color: red; */
+  flex: w;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+.thecard {
+  width: 46%;
+  height: 260px;
+  background-color: black;
+  border: 15px solid rgb(18, 1, 18);
+}
+
+.thecard img {
+  height: 100%;
+  width: 100%;
+}
+
+.section4 {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.myexperience_education {
+  width: 80%;
+  height: 100%;
+  /* background-color: red; */
+  display: flex;
+}
+
+.myexperience {
+  width: 50%;
+  height: 85%;
+  /* background-color: aqua; */
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.myexperience h1 {
+  font-size: 40px;
+  font-weight: bolder;
+  background: linear-gradient(to right, #af29b2, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.myexperienceholder {
+  height: 79px;
+  width: 80%;
+  background-color: #2d0229;
+  border-radius: 9px;
+  display: flex;
+  /* float: right; */
+  gap: 50px;
+  justify-content: end;
+}
+
+.myexperienceholder span {
+  font-size: 12px;
+  color: rgb(201, 4, 201);
+}
+
+.myexperienceholder h3 {
+  color: white;
+  line-height: 2px;
+}
+
+.myexperienceholder h5 {
+  color: rgb(202, 6, 189);
+}
+
+.myexperienceholder h6 {
+  color: white;
+}
+
+.text {
+  width: 98%;
+  height: 100%;
+  /* background-color: rgb(34, 32, 32); */
+  line-height: 0;
+}
+
+.myexperience2 {
+  width: 50%;
+  height: 85%;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.myexperience2 h1 {
+  font-size: 40px;
+  font-weight: bolder;
+  background: linear-gradient(to right, #af29b2, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section5 {
+  width: 100%;
+  height: 500px;
+  background: radial-gradient( #510151, #070006);
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.My2 {
+  height: 30%;
+  width: 80%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  /* background-color: red; */
+}
+
+.My2 h1 {
+  font-size: 40px;
+  font-weight: bolder;
+  background: linear-gradient(to right, #af29b2, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* line-height: 15px; */
+}
+
+.Skillsholder {
+  width: 80%;
+  height: 180px;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Skillsbox:hover {
+  border: 2px solid #e13be4;
+}
+.Skillsbox {
+  width: 12%;
+  height: 150px;
+  background-color: rgba(74, 3, 53, 0.648);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  text-align: center;
+  border-radius: 6px;
+  color: white;
+}
+
+.icon1 {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  /* background-color: rgb(255, 255, 255); */
+}
+
+.Skillsbox p {
+  /* margin-top: 110px; */
+  font-weight: bold;
+  font-size: large;
+}
+
+.Skillsbox h5 {
+  margin-top: 80px;
+  color: #e13be4;
+  font-weight: bolder;
+}
+
+.icon1 img {
+  width: 100%;
+  height: 100;
+}
